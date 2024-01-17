@@ -1,0 +1,337 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+ 
+}
+
+/*header section*/
+.hero_area {
+  height: auto;
+  background-color: #f7f7f7;
+}
+
+.hero_area.sub_pages {
+  height: auto;
+}
+
+.header_section {}
+
+.header_section .container-fluid {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.header_section .nav_container {
+  margin: 0 auto;
+}
+
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 30px;
+  color: #343434;
+  text-align: center
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+.btn,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fafcfd;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  width: 45px;
+  margin-right: 5px;
+}
+
+.navbar-brand span {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2e2e2d;
+  margin-top: 5px;
+}
+
+.custom_nav-container {
+  z-index: 99999;
+  padding: 15px 0;
+}
+
+.custom_nav-container .navbar-toggler {
+  outline: none;
+}
+
+.custom_nav-container .navbar-toggler .navbar-toggler-icon {
+  background-image: url(../images/menu.png);
+  background-size: 55px;
+}
+
+.custom_dark-btn,
+.custom_orange-btn {
+  display: inline-block;
+  padding: 10px 0;
+  text-align: center;
+  width: 145px;
+  outline: none;
+  color: #f7f7f7;
+  border: 1px solid transparent;
+}
+
+.custom_dark-btn {
+  background-color: #000000;
+}
+
+.custom_dark-btn:hover {
+  border: 1px solid #000000;
+  color: #000000;
+  background-color: transparent;
+}
+
+.custom_orange-btn {
+  background-color: #fc5d35;
+}
+
+.custom_orange-btn:hover {
+  border: 1px solid #fc5d35;
+  color: #fc5d35;
+  background-color: transparent;
+}
+
+/*end header section*/
+
+/* footer section*/
+.footer_section {
+  background-color: #efeded;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer_section p {
+  color: #191818;
+  margin: 0;
+  text-align: center;
+}
+
+.footer_section a {
+  color: #191818;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.channel {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+/* end footer section*/
+
+
+/* Form Container Section */
+.form_container button {
+  background-color: #fc5d35;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 5px 30px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.form_container input {
+  border: none;
+  outline: none;
+  border-bottom: .8px solid #252525;
+  width: 120%;
+  margin: 10px 0;
+}
+
+
+/*Operator Page Section*/
+
+/*End Operator Page Section*/
+
+
+
+/*SMS Page Section*/
+
+.layout_phone{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    padding: 100px;
+}
+
+.layout_pin {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.btn_pair {
+  margin: 20px;
+}
+/*End SMS Page Section*/
+
+/*Content Page Section*/
+
+.layout_padding {
+  padding: 45px 0;
+  
+}
+
+.layout_padding2 {
+  padding: 45px 0;
+}
+
+.layout_padding3 {
+    position: absolute;
+    width: 100%;
+    bottom: 64px;
+    padding: 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.custom_heading {
+  text-align: center;
+  font-weight: bold;
+}
+
+.custom_heading-text {
+  text-align: center;
+}
+
+/* service section */
+.service_section .card .card-img-top {
+  width: 50px;
+  margin: 55px auto 5px auto;
+}
+
+.service_section .card {
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.service_section .card .card-title {
+  color: #fc5d35;
+
+}
+
+.service_section .card::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  background-color: transparent;
+}
+
+.service_section .card:hover {
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.service_section .card:hover::after {
+  background-color: #fc5d35;
+}
+
+/* end service section */
+
+/*End Content Page Section*/
+
+/*Cancel Page Section*/
+
+/*End Cancel Page Section*/
+
+
+
+/*Legal Page Section*/
+
+#LegalCard {
+  transform: translate(60%, 0%);
+  width: 45%;
+}
+
+/*End Legal Page Section*/
+
+
+/* info section */
+.info_section ul {
+  padding: 0;
+}
+
+.info_section ul li {
+  list-style-type: none;
+  margin: 3px 0;
+
+}
+
+.info_section h5 {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.info_section .social-box {
+  margin: 25px 0;
+}
+
+.info_section .social-box img {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.info_section .form_container input {
+  width: 225px;
+  height: 30px;
+}
+
+.info_section .form_container button {
+  background-color: #fc5d35;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 5px 30px;
+  margin-top: 15px;
+  font-size: 15px;
+}
