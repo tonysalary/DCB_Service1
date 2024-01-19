@@ -1,4 +1,4 @@
-body {
+  body {
   font-family: 'Poppins', sans-serif;
   color: #000000;
   background-color: #ffffff;
@@ -30,17 +30,6 @@ body {
   padding: 10px 30px;
   color: #343434;
   text-align: center
-}
-
-a,
-a:hover,
-a:focus {
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  color: initial;
 }
 
 .btn,
@@ -130,6 +119,13 @@ a:focus {
   font-family: "Roboto", sans-serif;
 }
 
+.footer_section1 {
+  background-color: #efeded;
+  position: absolute;
+  padding: 20px 0;
+  font-family: "Roboto", sans-serif;
+}
+
 .footer_section p {
   color: #191818;
   margin: 0;
@@ -137,6 +133,16 @@ a:focus {
 }
 
 .footer_section a {
+  color: #191818;
+}
+
+.footer_section1 p {
+  color: #191818;
+  margin: 0;
+  text-align: center;
+}
+
+.footer_section1 a {
   color: #191818;
 }
 
@@ -151,9 +157,14 @@ a:focus {
 .channel {
     display: flex;
     padding: 20px;
-    align-items: center;
-    flex-direction: column;
     margin-top: 90px;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.channel div {
+  padding: 3px;
 }
 
 /* end footer section*/
@@ -184,23 +195,36 @@ a:focus {
 /*End Operator Page Section*/
 
 
-
 /*SMS Page Section*/
 
-.layout_phone{
+.layout-phone{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
-    padding: 100px;
+    justify-content: center;
+    padding: 60px;
+    margin-right: 0;
 }
 
-.layout_pin {
+.layout-phone .phone-number-text {
+  text-align: right;
+}
+
+.layout-phone button {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 30px;
+}
+
+.layout-phone label {
+  margin-bottom: 0;
+  text-align: right;
+  padding-left: 60px;
+}
+
+.layout-pin {
   
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-
 }
 
 .btn_pair {
@@ -210,22 +234,30 @@ a:focus {
 
 /*Content Page Section*/
 
-.layout_padding {
+.layout-padding {
   padding: 45px 0;
   
 }
 
-.layout_padding2 {
+.layout-padding-2 {
   padding: 45px 0;
 }
 
-.layout_padding3 {
+.layout-padding-3 {
     position: absolute;
     width: 100%;
-    bottom: 64px;
+    bottom: 60px;
     padding: 30px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.5);
+    background: #dee2e6;
+}
+
+.layout-padding-4 {
+    
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background: #dee2e6;
 }
 
 .custom_heading {
@@ -279,6 +311,7 @@ a:focus {
 /* end service section */
 
 /*End Content Page Section*/
+
 
 /*Cancel Page Section*/
 
@@ -334,4 +367,73 @@ a:focus {
   padding: 5px 30px;
   margin-top: 15px;
   font-size: 15px;
+}
+
+.cookie-notice {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  border-top: 1px solid #1a54a9;
+  z-index: 999999;
+  display: flex;
+  word-break: normal;
+}
+
+.cookie-notice .wrapper {
+  padding: 0.5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/*Unsubscribe Modal*/
+ .cookie-notice{
+    margin: 60px; /* Reset default margin */
+    bottom: 0;
+    left: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/*Subscribe Modal*/
+.unsub-modal{
+  margin: 300px; /* Reset default margin */
+  bottom: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.categories-keys {
+  padding-left:  100px; 
+  padding-top: 100px;
+  text-align: center;
+}
+
+.categories-contents {
+  padding-top: 86px;
+  padding-right: 0;
+  margin-left: 60px;
+}
+
+.categories-list-title {
+  text-align: center;
+  border: 1px grey;
+  border-radius: 1px;
+}
+
+.card-padding {                                             
+  padding: 10px;
+}
+
+.download_btn {
+  padding-top: 50px;
+}
+
+.content-page-control {
+  margin-right: 0;
 }

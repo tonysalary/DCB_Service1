@@ -1,0 +1,38 @@
+{
+	"items": [
+		{
+			"header": "Home",
+			"link": "index.html"
+		},
+
+		{
+			"header": "Operator",
+			"link": "Operator.html"
+		},
+
+		{
+			"header": "SMS",
+			"link": "SMS.html"
+		},
+
+		{
+			"header": "Cancel",
+			"link": "Cancel.html"
+		},
+
+		{
+			"header": "Content",
+			"link": "Content.html"
+		},
+
+		{
+			"header": "Legal",
+			"link": "Legal.html"
+		},
+
+		{
+			"header": "Logout",
+			"link": "index.html"
+		}
+	]
+}

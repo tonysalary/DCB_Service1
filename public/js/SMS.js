@@ -3,7 +3,7 @@ $(document).ready( function() {
   var code = 0;
   var phoneNum = [];
 
-  $( function () {
+  $( function() {
 
     var errorMap = ["Invalid number", "Invalid country code", "Too short", "Too long", "Invalid number"];
     var input = document.querySelector("#phone");
@@ -22,56 +22,43 @@ $(document).ready( function() {
 
       initialCountry: "us",
       nationalMode: true,
-      utilsScript: "js/utils.js"
+      utilsScript: "js/lib/utils.js"
     });
 
     const reset = () => {
       input.classList.remove("error");
     };
 
-    // //Enter the Phone Number and Verify the user.
+    //Enter the Phone Number and Verify the user.
     button.addEventListener('click', () => {
-      reset();
-      $("#form").hide();
-      $("#pinMode").show();
+      if (input.value.trim()) {
+        if ( iti.isValidNumberPrecise() ) {
+          alert("Phone Number is entered correctly.");
+          reset();
 
-      var seconde = 60;
-      var timer = setInterval( function () {
-        if(seconde == 0) {
-          clearInterval(timer);
-          location.reload();
+          $("#form").hide();
+          $("#pinMode").show();
+
+          var seconde = 60;
+          var timer = setInterval( function () {
+            if(seconde == 0) {
+              clearInterval(timer);
+              location.reload();
+            } else {
+              $("#stopTimer").html('Enter the PIN Code:&nbsp' + seconde + 's');
+              seconde--;
+            }
+          }, 1000);
+          //Send the request in Backend     
+        } else {
+          input.classList.add("error");
+          const errorCode = iti.getValidationError();
+          alert(errorMap[errorCode] || "Invalid number");
         }
-        else{
-          $("#stopTimer").html('Enter the PIN Code:&nbsp' + seconde + 's');
-          seconde--;
-        }
-      }, 1000);
-
-    //   if (input.value.trim()) {
-
-    //     if ( iti.isValidNumberPrecise() ) {
-
-    //       alert("Phone Number is entered correctly.")
-
-    //       //Send the request in Backend
-
-          
-    //     } 
-    //     else {
-
-    //       input.classList.add("error");
-
-    //       const errorCode = iti.getValidationError();
-
-    //       alert(errorMap[errorCode] || "Invalid number");
-
-    //     }
-
-    //   }
-
+      }
      });
 
-    // on keyup / change flag: reset
+    //on keyup / change flag: reset
     input.addEventListener('change', reset);
     input.addEventListener('keyup', reset);
   })
@@ -82,21 +69,14 @@ $(document).ready( function() {
     var pinCode = $( "#pinInput" ).val();
     setCookie("isSubscribed","true", 1);
     alert("Confirm code is sent to the server.");
+    
     $.post("/users/controller/pinCode", formData, function(data, status) {
-        alert("Data: " + data + "\nStatus: " + status);
-        if(status) {
-
-          //Process about the response.
-
-        }
-        else {
-
-          //Error
-
-        }
-
+      if(status) {
+        //Process about the response.
+      } else {
+        //Error
+      }
     });
-
   })
 
   //Cancel to enter the PIN

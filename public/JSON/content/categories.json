@@ -1,0 +1,48 @@
+{
+	"categories": [
+		{
+			"key": "category_key_1",
+			"name": "Category Name1"
+		},
+ 
+		{
+			"key": "category_key_2",
+			"name": "Category Name2"
+		},
+
+		{
+			"key": "category_key_3",
+			"name": "Category Name3"
+		},
+
+		{
+			"key": "category_key_4",
+			"name": "Category Name4"
+		},
+
+		{
+			"key": "category_key_5",
+			"name": "Category Name5"
+		},
+
+		{
+			"key": "category_key_6",
+			"name": "Category Name6"
+		},
+
+		{
+			"key": "category_key_7",
+			"name": "Category Name7"
+		},
+
+		{
+			"key": "category_key_8",
+			"name": "Category Name8"
+		},
+
+		{
+			"key": "category_key_9",
+			"name": "Category Name9"
+		}
+	]
+}

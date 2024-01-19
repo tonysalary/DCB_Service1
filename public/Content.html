@@ -12,10 +12,10 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>jQuery</title>
+  <title>DCB Service</title>
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.css" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
@@ -23,6 +23,7 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 
 <body>
@@ -30,10 +31,10 @@
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
-        <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="index.html">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html" data-id="fdg">
             <img src="images/twitter.png" alt="" /><span>
-              jQuery
+              DCB Service
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -43,28 +44,8 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Operator.html">Operator</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="SMS.html">SMS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Cancel.html">Cancel</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Content.html">Content</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Legal.html">Legal</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Logout</a>
-                </li>
+              <ul class="navbar-nav" id="header">
+                
               </ul>
           </div>
         </nav>
@@ -72,19 +53,29 @@
     </header>
     <!-- end header section -->
   </div>
+ 
+  <div class="row content-page-control">
+    <div class="col-md-1"></div>
+    <div class="col-md-3 categories-keys">
+      <div class="categories-list-title">
+        <h3>Categories</h3>  
+      </div>
 
-  <section class="service_section layout_padding ">
-    <div class="container">
-      <div class=" layout_padding2">
-        <div class="card-deck" id="ContentCard">
+      <div id="categories_list" class="list-group">
           
-        </div>
       </div>
     </div>
-  </section>
 
+      <div class="col-md-6 categories-contents">
+        <section class="service_section layout-padding container">
+          <div id="content-card">
+              
+          </div>
+        </section>
+      </div>
+    </div>
   <!-- Term&Conditions -->
-  <section class="info_section layout_padding3">
+  <section class="info_section layout-padding-4">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -124,7 +115,7 @@
   </section>
   
   <!-- footer section -->
-  <section class="container-fluid footer_section">
+  <section class="container-fluid footer_section1">
     <p>
       Copyright &copy; 2023-2024 All Rights Reserved By
       <a href="https://html.design/">***</a>
@@ -132,9 +123,10 @@
   </section>
   <!-- footer section -->
 
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/lib/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/lib/bootstrap.js"></script>
   <script type="text/javascript" src="js/content.js"></script>
+  <script type="text/javascript" src="js/header.js"></script>
   
 </body>
 
