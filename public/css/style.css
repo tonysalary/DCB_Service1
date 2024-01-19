@@ -270,10 +270,10 @@
 }
 
 /* service section */
-.service_section .card .card-img-top {
+/*.service_section .card .card-img-top {
   width: 50px;
   margin: 55px auto 5px auto;
-}
+}*/
 
 .service_section .card {
   text-align: center;
@@ -317,7 +317,10 @@
 
 /*End Cancel Page Section*/
 
-
+.list-group-item.active {
+  background-color: #dee2e6 !important;
+  border-color: #dee2e6  !important;
+}
 
 /*Legal Page Section*/
 
@@ -436,4 +439,9 @@
 
 .content-page-control {
   margin-right: 0;
+}
+
+.media-modal-content {
+  max-width: 1000px !important;
+  padding-top: 100px;
 }

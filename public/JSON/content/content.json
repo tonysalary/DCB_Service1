@@ -2,25 +2,30 @@
     "category_key_1": [
         {
             "title": "Content1-1",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content2-1",
-            "image": "/images/twitter.png",
+            "media": "/media/movie.mp4",
+            "type": "video",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
+            
             "title": "Content3-1",
-            "image": "/images/twitter.png",
+            "media": "/media/movie.mp4",
+            "type": "video",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content4-1",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         }
@@ -28,31 +33,36 @@
     "category_key_2": [
         {
             "title": "Content1-2",
-            "image": "/images/twitter.png",
+            "media": "/media/movie.mp4",
+            "type": "video",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content2-2",
-            "image": "/images/twitter.png",
+            "type": "image",
+            "media": "/media/image.png",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content3-2",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content4-2",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content5-2",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         }
@@ -60,19 +70,22 @@
     "category_key_3": [
         {
             "title": "Content1-3",
-            "image": "/images/twitter.png",
+            "media": "/media/movie.mp4",
+            "type": "video",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content2-3",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content3-3",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         }
@@ -81,19 +94,22 @@
     "category_key_4": [
         {
             "title": "Content1-4",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content2-4",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content3-4",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         }
@@ -102,37 +118,43 @@
     "category_key_5": [
         {
             "title": "Content1-5",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content2-5",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content3-5",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content4-5",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content5-5",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content6-5",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         }
@@ -141,19 +163,22 @@
     "category_key_6": [
         {
             "title": "Content1-6",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content2-6",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content3-6",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         }
@@ -162,25 +187,29 @@
     "category_key_7": [
         {
             "title": "Content1-7",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content2-7",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content3-7",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content4-7",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         }
@@ -189,19 +218,22 @@
     "category_key_8": [
         {
             "title": "Content1-8",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content2-8",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content3-8",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         }
@@ -210,19 +242,22 @@
     "category_key_9": [
         {
             "title": "Content1-9",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content2-9",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         },
         {
             "title": "Content3-9",
-            "image": "/images/twitter.png",
+            "media": "/media/image.png",
+            "type": "image",
             "description": "If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.",
             "download_url": "https://www.jQuery.com"
         }
