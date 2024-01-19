@@ -41,11 +41,11 @@ function appendContent(contents) {
 
                   if(contents[i].type == 'image') {
                         var content = "<div class='card-padding'><div class='card'><div class='row'><div class='col-sm-3 align-items-center' style='display: flex; align-items: center; padding-left: 20px;'><img style='width: 100%;' class='card-img-top' id='image-link' onclick=imageShow('" + media + "') src=' " + contents[i].media + "' alt='Card image cap' /></div><div class='col-sm-6'><div class='card-body'><h5 class='card-title'>"
-                              + contents[i].title + "</h5><p class='card-text'>" + contents[i].description + "</p></div></div><div class='col-sm-2 download_btn'><button class='btn'><i class='fas fa-cloud'></i><a href='contents[i].media' download>&nbspDownload</a></button></div></div></div>";
+                              + contents[i].title + "</h5><p class='card-text'>" + contents[i].description + "</p></div></div><div class='col-sm-2 download_btn'><button class='btn'><i class='fas fa-cloud'></i><a href='"+contents[i].media +"' download>&nbspDownload</a></button></div></div></div>";
                         $("#content-card").append(content);
                   } else {
                         var content = "<div class='card-padding'><div class='card'><div class='row'><div class='col-sm-3' style='display: flex; align-items: center; padding-left: 20px;'><video style='width: 100%;' id='image-link' onclick=imageShow('" + media + "')><source src='" + media + "' type='video/mp4'></video></div><div class='col-sm-6'><div class=  'card-body'><h5 class='card-title'>"
-                              + contents[i].title + "</h5><p class='card-text'>" + contents[i].description + "</p></div></div><div class='col-sm-2 download_btn'><button class='btn'><i class='fas fa-cloud'></i><a href='contents[i].media' download>&nbspDownload</a></button></div></div></div>";
+                              + contents[i].title + "</h5><p class='card-text'>" + contents[i].description + "</p></div></div><div class='col-sm-2 download_btn'><button class='btn'><i class='fas fa-cloud'></i><a href='"+contents[i].media +"' download>&nbspDownload</a></button></div></div></div>";
                         $("#content-card").append(content);
                   }
             }
