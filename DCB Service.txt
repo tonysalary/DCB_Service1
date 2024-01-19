@@ -1,0 +1,29 @@
+DCB Landing/Pages/Club
+
+https://language.domain.com/ for DCB Services
+
+Main /landing/ config file of different headers. If I detect one header I redirect to the URL of The Operator, so we need a list of headers to check in the header HTTP, that is the job of this page.
+If we detect header enrichment AND DCB of that operator we redirect to /dcb/op/ if not we redirect to /sms/)
+
+Operator /landing/dcb/op/ 
+We need Accept Button (check verification or not, if check verification checked or not checked continue and options before and after the button specific of each operator)
+
+Sms /landing/sms/ 
+Enter Mobile Number or we put it if header enrichment was passed to the page and we call API, API will return PINMode or Call2Action Mode, this means that we have N Minutes to Answer XXXX to YYYY Shortcode (Like a Bank timer countdown for the confirmation of VISA transaction).
+If the user subscribes OK we set a cookie to mark the user as subscribed.
+
+these 2 pages (/dcb and /sms) need to be configurable easily from CSS as operators will require a lot of changes in terms of fonts, size, colors, check or not check, one position or another, so it has to be easy to create like “themes”.
+
+Cancel  /cancel/ (if we have Cookie click and call Unsuscribe API if not enter mobile call API and enter OTP PIN to unsuscribe)
+
+Content  /club/ (Categories)-> Content (if you have cookie with Msisdn we let user enter in this section, if not we redirect it to landing)
+This section will have just at the left like a Menu DownScroll with the categories and first one will be selected by default. At the right we will have all the content displayed of the Images or Videos or Content (we can define that content as Title, Image/Video, Description, Download Link) of that category… we need to define a Json structure and read it from there: json with categories and content related to that category (simple).
+
+Legal    /legal/ 
+
+All content in each page will be read from a Json with its own characteristics:
+All landings (op or sms) Logo at the right top side
+Gif Image with the Legal Text
+Check or Not Check + Legal
+Big Button Text
+Term&Condition Footer
