@@ -2,12 +2,14 @@ $(document).ready( function() {
 
   var code = 0;
   var phoneNum = [];
+  var timer = null;
 
   $( function() {
 
     var errorMap = ["Invalid number", "Invalid country code", "Too short", "Too long", "Invalid number"];
     var input = document.querySelector("#phone");
     var button = document.querySelector("#btn_sms");
+    
     const iti = window.intlTelInput( input, {
       customPlaceholder: function(selectedCountryPlaceholder, selectedCountryData) {
         return selectedCountryPlaceholder;
@@ -40,7 +42,7 @@ $(document).ready( function() {
           $("#pinMode").show();
 
           var seconde = 60;
-          var timer = setInterval( function () {
+          timer = setInterval( function () {
             if(seconde == 0) {
               clearInterval(timer);
               location.reload();
@@ -69,9 +71,13 @@ $(document).ready( function() {
     var pinCode = $( "#pinInput" ).val();
     setCookie("isSubscribed","true", 1);
     alert("Confirm code is sent to the server.");
+
+    clearInterval(timer);
     
     $.post("/users/controller/pinCode", formData, function(data, status) {
+      
       if(status) {
+
         //Process about the response.
       } else {
         //Error
