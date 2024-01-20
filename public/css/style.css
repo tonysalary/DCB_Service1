@@ -497,3 +497,7 @@
   font-size: 48px;
 }
 
+.timer_modal {
+  display: flex;
+  align-items: center;
+}
