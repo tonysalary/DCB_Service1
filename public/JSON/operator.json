@@ -1,0 +1,8 @@
+{
+	"element": {
+		"image": "images/legal.gif",
+		"text": "Operator-specific text goes here.",
+		"label": "Check to verify subscription",
+		"checked": true
+	}
+}

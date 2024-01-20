@@ -1,20 +1,20 @@
 $(document).ready( function () {
 
-  var emailRadio = document.getElementById('email');
-  var otherRadio = document.getElementById('other');
-  emailRadio.defaultChecked = true;
+  // var emailRadio = document.getElementById('email');
+  // var otherRadio = document.getElementById('other');
+  // emailRadio.defaultChecked = true;
 
-  var radios = document.getElementsByTagName('input');
+  // var radios = document.getElementsByTagName('input');
 
-  $("#btn_accept").click( function() {
+  // $("#btn_accept").click( function() {
 
-    if (radios[0].checked) {
-        // get value, set checked flag or do whatever you need to
-        alert("Continue with Email.");
-    } else if(radios[1].checked) {
-      alert("Continue with other.");
+  //   if (radios[0].checked) {
+  //       // get value, set checked flag or do whatever you need to
+  //       alert("Continue with Email.");
+  //   } else if(radios[1].checked) {
+  //     alert("Continue with other.");
       
-    }
+  //   }
 
     // if(emailRadio.Checked) {
     //   alert("Continue with Email.");
@@ -31,7 +31,12 @@ $(document).ready( function () {
     //     alert("You are subscribed already.");
     //   }  
     // }
-  })
+
+    $.getJSON("JSON/operator.json", function(data) {
+      var element = data.element;
+      $("#operator_box").append("<div class='card'><img class='card-image-top' src='" + element.image + "' alt='Card image'><div class='card-body'><p class='card-text'>" + element.text + "</p><div class='form-check-inline'><label class='form-check-label'><input type='checkbox' class='form-check-input' value='"+ element.checked + "'>" + element.label + "</label></div><div><form><div class='form-group'><textarea class='form-control' rows='3' id='comment'></textarea></div><button type='submit' class='btn btn-secondary'>Submit</button></form></div></div></div>");
+    })
+
 
   /*Cookie Processing Functions*/
 

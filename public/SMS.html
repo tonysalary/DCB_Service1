@@ -135,6 +135,40 @@
   </section>
   <!-- footer section -->
 
+   <!-- Timer Modal -->
+  <div id="timerModal" class="modal fade" role="dialog">
+  <div class="modal-dialog cookie-notice">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Send OK to 19488 now!</h5>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="base-timer">
+          <svg class="base-timer__svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <g class="base-timer__circle">
+              <circle class="base-timer__path-elapsed" cx="50" cy="50" r="45"></circle>
+              <path id="base-timer-path-remaining" stroke-dasharray="283" class="base-timer__path-remaining arc"
+              d="
+                 M 50, 50
+                 m -45, 0
+                 a 45,45 0 1,0 90,0
+                 a 45,45 0 1,0 -90,0
+                 "></path>
+            </g>
+          </svg>
+          <span id="base-timer-label" class="base-timer__label"></span>
+        </div>
+        <p>To gain access and watch all the content</p>
+      </div>
+      <div class="modal-footer">
+        <button id="timerCancel" type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+  <!-- Cookie Accept -->
+
   <script type="text/javascript" src="js/lib/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/lib/bootstrap.js"></script>
   <script type="text/javascript" src="js/lib/intlTelInput.js"></script>
