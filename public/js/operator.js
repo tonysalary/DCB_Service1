@@ -34,7 +34,7 @@ $(document).ready( function () {
 
     $.getJSON("JSON/operator.json", function(data) {
       var element = data.element;
-      $("#operator_box").append("<div class='card'><img class='card-image-top' src='" + element.image + "' alt='Card image'><div class='card-body'><p class='card-text'>" + element.text + "</p><div class='form-check-inline'><label class='form-check-label'><input type='checkbox' class='form-check-input' value='"+ element.checked + "'>" + element.label + "</label></div><div><form><div class='form-group'><textarea class='form-control' rows='3' id='comment'></textarea></div><button type='submit' class='btn btn-secondary'>Submit</button></form></div></div></div>");
+      $("#operator_box").append("<div class='card'><img class='card-image-top' src='" + element.image + "' alt='Card image'><div class='card-body'><p class='card-text' style='display: flex;flex-direction: row-reverse'>" + element.text + "</p><div><form><button type='submit' class='btn btn-secondary'>Submit</button><div class='form-group' style='margin-top: 8px'><textarea class='form-control' rows='3' id='comment'></textarea></div></form></div><div class='form-check-inline'><label class='form-check-label'><input type='checkbox' class='form-check-input'" + (element.checked == true ? 'checked' : '') +">" + element.label + "</label></div></div><button class='btn btn-light' style=''>Accept</button></div>");
     })
 
 
