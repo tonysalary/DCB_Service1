@@ -230,6 +230,7 @@
 .layout-operator {
   width: 50%;
   padding-top: 100px;
+  padding-bottom: 20px;
 }
 
 .btn_pair {
@@ -446,6 +447,7 @@
   margin-right: 0;
 }
 
+/*Timer of SMS Page*/
 .media-modal-content {
   max-width: 1000px !important;
   padding-top: 100px;
@@ -500,4 +502,17 @@
 .timer_modal {
   display: flex;
   align-items: center;
+}
+/*Timer of SMS Page*/
+/*Operator Page*/
+
+.operator_submit {
+  position: absolute;
+  right: 20px;
+}
+
+.operator_accept {
+  display: flex;
+  flex-direction: column; 
+  padding: 0 20px 30px 20px;
 }

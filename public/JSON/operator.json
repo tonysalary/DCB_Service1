@@ -1,8 +1,8 @@
 {
 	"element": {
-		"image": "images/legal.gif",
-		"text": "Operator-specific text goes here.",
-		"label": "Check to verify subscription",
+		"image": "images/image.gif",
+		"text": "Legal Text Section",
+		"label": "Subscription Validate",
 		"checked": true
 	}
 }
