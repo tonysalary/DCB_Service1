@@ -21,7 +21,7 @@ $(document).ready( function() {
           .then(function(data) { callback(data.country_code);})
           .catch(function() { callback("us"); });
       },
-
+      
       initialCountry: "us",
       nationalMode: true,
       utilsScript: "js/lib/utils.js"
@@ -38,7 +38,7 @@ $(document).ready( function() {
           alert("Phone Number is entered correctly.");
           reset();
 
-          $("#form").hide();
+          $("#form_phone").hide();
           $("#pinMode").show();
 
           // var seconde = 60;

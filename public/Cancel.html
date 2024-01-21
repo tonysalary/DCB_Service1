@@ -16,7 +16,6 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.css" />
-  <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
@@ -24,6 +23,7 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 
 <body>
@@ -32,7 +32,7 @@
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.html" data-id="fdg">
             <img src="images/twitter.png" alt="" /><span>
               DCB Service
             </span>
@@ -53,11 +53,9 @@
     </header>
     <!-- end header section -->
   </div>
-
-  <div class="subscribe">
-    <div class="form_container">
-        <button id="btn_unSub">Unsubscribe</button>
-      </div>
+ 
+  <div class="container layout-home">
+    <button class="btn btn-secondary" id="btn_unSub">Unsubscribe</button>
   </div>
 
   <!-- Term&Conditions -->
@@ -103,14 +101,14 @@
   <section class="container-fluid footer_section">
     <p>
       Copyright &copy; 2023-2024 All Rights Reserved By
-      <a href="https://html.design/">***</a>
+      <a href="https://html.design/">XXX</a>
     </p>
   </section>
   <!-- footer section -->
 
   <!-- UnSubscribe Modal -->
   <div id="unSubModal" class="modal fade" role="dialog">
-  <div class="modal-dialog unsub-modal">
+  <div class="modal-dialog modal-dialog-centered">
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
@@ -132,13 +130,11 @@
 
   <script type="text/javascript" src="js/lib/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/lib/bootstrap.js"></script>
-  <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/lib/otpdesigner.min.js"></script>
-  <script type="text/javascript" src="js/lib/otpdesigner.js"></script>
-
+  
   <script type="text/javascript" src="js/cancel.js"></script>
   <script type="text/javascript" src="js/header.js"></script>
-  
+
 </body>
 
 </html>

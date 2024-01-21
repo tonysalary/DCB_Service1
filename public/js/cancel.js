@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 
     //Cookie click Check

@@ -56,27 +56,24 @@
     <!-- end header section -->
   </div>
 
-  <div class="form_container">
-    <!-- <div class="layout-phone "> -->
-    <!--Enter the Phone Number -->
-    <div class="row layout-phone" id="form">
-      <div class="col-sm-2 phone-number-text">
-        <label>Phone Number:</label>
-      </div>
-      <div class="col-sm-2">
-        <input id="phone" name="phone" type="tel" />
-      </div>
-      <div class="col-sm-1">
-        <button class="btn" id="btn_sms">Submit</button>
-      </div>
-      
-    <!-- </div> -->
+  <div class="container layout-phone" id='form_phone' >
+    <div class="form-group">
+      <label for="phone">Phone Number:</label>
+      <input class="form-control" id="phone" name="phone" type="tel" />
+      <button class="btn btn-secondary" id="btn_sms">Submit</button>
+    </div>
   </div>
-
     <!-- PinMode -->
-    <div class="row align-items-center justify-content-center">
+  <div class="container" id="pinMode" style="display:none;" >
+    <div class="form-group layout-pin">
+      <input class="form-control" id = "pinInput" name="pin" type="password" placeholder="Enter the PIN Code" />
+      <button class="btn btn-success btn_pair" id="btn_pin">Confirm</button>
+      <button class="btn btn-secondary" id="btn_cancel">&nbsp;Cancel&nbsp;</button>
+    </div>
+  </div>
+    <!-- <div class="row align-items-center justify-content-center">
       <div class="layout-pin col-sm-3" id="pinMode" style="display: none;">
-        <input id = "pinInput" name="pin" type="password" placeholder="Enter the PIN Code" />
+        
         <div class="btn_pair">
           <button id="btn_pin">Confirm</button>
           <button id="btn_cancel">&nbsp;Cancel&nbsp;</button>
@@ -84,7 +81,7 @@
         <div id="stopTimer" style="position: absolute; margin: -205px;"></div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Term&Conditions -->
   <section class="info_section layout-padding-3">
@@ -130,14 +127,14 @@
   <section class="container-fluid footer_section" style="position: absolute; bottom: 0;">
     <p>
       Copyright &copy; 2023-2024 All Rights Reserved By
-      <a href="https://html.design/">***</a>
+      <a href="https://html.design/">XXX</a>
     </p>
   </section>
   <!-- footer section -->
 
    <!-- Timer Modal -->
   <div id="timerModal" class="modal fade" role="dialog">
-  <div class="modal-dialog unsub-modal">
+  <div class="modal-dialog modal-dialog-centered">
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">

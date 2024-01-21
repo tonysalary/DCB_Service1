@@ -15,8 +15,6 @@
   height: auto;
 }
 
-.header_section {}
-
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
@@ -146,15 +144,7 @@
   color: #191818;
 }
 
-.subscribe {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    flex-direction: row;
-    padding: 20px;
-}
-
-.channel {
+/*.channel {
     display: flex;
     padding: 20px;
     margin-top: 90px;
@@ -166,7 +156,7 @@
 .channel div {
   padding: 3px;
 }
-
+*/
 /* end footer section*/
 
 
@@ -189,6 +179,13 @@
   margin: 10px 0;
 }
 
+/*Home Page Section*/
+.layout-home {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+/*Home Page Section*/
 
 /*Operator Page Section*/
 
@@ -198,30 +195,13 @@
 /*SMS Page Section*/
 
 .layout-phone{
+    padding-top: 100px;
     display: flex;
     justify-content: center;
-    padding: 60px;
-    margin-right: 0;
-}
-
-.layout-phone .phone-number-text {
-  text-align: right;
-}
-
-.layout-phone button {
-  margin-bottom: 0;
-  margin-top: 0;
-  margin-left: 30px;
-}
-
-.layout-phone label {
-  margin-bottom: 0;
-  text-align: right;
-  padding-left: 60px;
 }
 
 .layout-pin {
-  
+  padding: 100px 300px 0 300px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -234,7 +214,7 @@
 }
 
 .btn_pair {
-  margin: 20px;
+  margin: 10px;
 }
 /*End SMS Page Section*/
 
@@ -276,10 +256,6 @@
 }
 
 /* service section */
-/*.service_section .card .card-img-top {
-  width: 50px;
-  margin: 55px auto 5px auto;
-}*/
 
 .service_section .card {
   text-align: center;
@@ -398,25 +374,6 @@
   margin: 0 auto;
 }
 
-
-/*Unsubscribe Modal*/
- .cookie-notice{
-    margin: 60px; /* Reset default margin */
-    bottom: 0;
-    left: 720px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-/*Subscribe Modal*/
-.unsub-modal{
-  margin: 300px; /* Reset default margin */
-  bottom: 0;
-  left: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .categories-keys {
   padding-left:  100px; 
   padding-top: 100px;
@@ -448,10 +405,6 @@
 }
 
 /*Timer of SMS Page*/
-.media-modal-content {
-  max-width: 1000px !important;
-  padding-top: 100px;
-}
 
 .base-timer {
   position: relative;
